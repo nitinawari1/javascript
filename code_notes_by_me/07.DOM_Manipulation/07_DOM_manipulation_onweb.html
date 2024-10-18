@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preco  nnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet"> -->
+    <title>nitin fitness</title>
+  <style>
+    body {
+      background: url('/projects/gym website-project 1/image/bg.jpg');
+    }
+  </style>
+  <script src="/code notes by me/08_events_&other_dom_property.js "></script>
+</head>
+
+<body >
+  <header name='yes'class="header" ><!-- left box for logo -->
+    <div class="left" id="divcon">
+      <img src="/projects/gym website-project 1/image/gym.png" alt="">
+      <div class="con" onmouseover="alert(1)" >nitin fitness</div>
+    </div>
+    <!-- mid box for nav -->1
+    <div class="mid" id="mid1">
+      <ul class="navbar " id="navbar1"  >
+        <li><a href="#" class="active" id="firsttab"  >home</a>
+        </li>
+        <li><a href="#" class="active" >about us</a></li>
+        <li><a href="#" class="active" >fittness calculator</a></li>
+        <li><a href="#" class="active" >contact us</a></li>
+
+      </ul>
+    </div>
+    <!-- right box for button -->
+    <div class="right">
+
+      <button class="btn">call us now</button>
+      <button class="btn">Email us</button>
+
+    </div>
+  </header>
+  <div class="box" id="box1" >
+    <h1 class="h1" id="h2"> fill the form to join gym</h1>
+
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" name="" placeholder="enter your name">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="enter your gender">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="enter your age">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="enter your mobile number">
+      </div>
+
+        <button class="btn">submit</button>
+     
+
+
+    </form>
+  </div>
+<style>
+	body{
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 0;
+    /* height: 4114px; */
+    margin: 0;
+    
+    background-repeat: no-repeat;
+     /* background-size:contain;  */
+    background-attachment:scroll;
+     background-position:top;
+     
+    
+}
+    
+.left{
+    
+    display:inline-block;
+    position: absolute;
+    height: 93px;
+    /* border: 2px solid rgb(58, 5, 156); */
+    left:60px;
+    top: 14px;
+   
+}
+.left img{
+    width: 136px;
+     filter: invert(100%);
+   }
+ .left div{
+     color: white;
+       text-align:center;
+     margin: -46px;
+     font-size:20px;
+   }
+
+.navbar{
+    display: inline-block;
+    background-color: brown;
+
+    
+
+}
+.red{
+   background-color: red;
+}
+.blue{
+   color: rgb(228, 228, 238);
+} 
+.config{
+  display: inline-block;
+  
+}
+.navbar li{
+    display: inline-block;
+    font-size: 21px;
+    
+   
+}
+.navbar li a{
+   
+    color: white;
+    text-decoration-line: none;
+    padding: 31px 19px;
+   
+}
+
+.navbar li a:hover, .navbar li a.active{
+ color: rgb(244, 239, 239);
+ text-decoration:underline;
+}
+
+
+.mid{
+   display: block;
+     width: 43%;
+    margin:26px auto;
+     /* border: 2px solid red; */
+}
+
+
+
+.right{
+  display: inline-block;
+  position:absolute;
+  right: 0px;
+  top: 20px;
+  /* border: 2px solid yellow; */
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+   color: white;
+   margin: 0px 9px;
+   padding: 4px 14px;
+   border-radius: 10px;
+   font-size: 16px;
+   cursor: pointer;
+   background-color: black;
+    
+ }
+.btn:hover{
+    background-color: grey;
+
+    
+} 
+.box{
+  border: 2px solid white;
+  margin: 108px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 29px;
+}
+.box h1{
+  text-align: center;
+}
+.box button{
+  display: block;
+  width:73%;
+  margin: 20px auto;
+}
+.form-group input {
+  font-family: 'Baloo Bhai 2', cursive;
+  border: 2px solid white;
+  text-align: center;
+  display: block;
+  margin: 11px auto;
+  padding: 1px;
+  width: 362px;
+  border-radius:9px;
+  font-size: 18px;
+}
+
+
+</style>
+
+</body>
+
+</html>

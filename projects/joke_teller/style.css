@@ -1,0 +1,25 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #9c683d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+}
+
+.container {
+    background-color: #53e5ea;
+    height: 20rem;
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    
+
+}
